@@ -3,9 +3,8 @@
 
 /* Icons */
 @import "bootstrap-icons/font/bootstrap-icons.css";
-@import "boxicons/css/boxicons.min.css";
 
-/* Sneat core (WAJIB) */
-@import "../sneat/css/core.css";
-@import "../sneat/css/theme-default.css";
-@import "../sneat/css/demo.css";  
+.pagination {
+    --bs-pagination-active-bg: #198754 !important;
+    --bs-pagination-active-border: #198754 !important;
+}
